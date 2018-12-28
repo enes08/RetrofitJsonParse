@@ -82,55 +82,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        /*
-        services!!.getUser2().enqueue(object :Callback<ResponseUser>{
-            override fun onFailure(call: Call<ResponseUser>?, t: Throwable?) {
-            }
-
-            override fun onResponse(call: Call<ResponseUser>?, response: Response<ResponseUser>?) {
-                var list =response!!.body().userData;
-
-
-
-
-
-                for (item in list){
-                    Log.d("RESPONSEO-SEND MSG", "***********************")
-
-                    Log.d("RESPONSEO-SEND MSG", item.email)
-                    Log.d("RESPONSEO-SEND MSG", item.name)
-                    Log.d("RESPONSEO-SEND MSG", item.phone)
-                    Log.d("RESPONSEO-SEND MSG", item.username)
-                    Log.d("RESPONSEO-SEND MSG", item.website)
-                    Log.d("RESPONSEO-SEND MSG", "----------------------------")
-
-                    Log.d("RESPONSEO-SEND MSG", item.address!!.city)
-                    Log.d("RESPONSEO-SEND MSG", item.address!!.street)
-                    Log.d("RESPONSEO-SEND MSG", item.address!!.suite)
-                    Log.d("RESPONSEO-SEND MSG", item.address!!.zipcode)
-                    Log.d("RESPONSEO-SEND MSG", "----------------------------")
-
-                    Log.d("RESPONSEO-SEND MSG", item.company!!.name)
-                    Log.d("RESPONSEO-SEND MSG", item.company!!.bs)
-                    Log.d("RESPONSEO-SEND MSG", item.company!!.catchPhrase)
-
-                    Log.d("RESPONSEO-SEND MSG", "----------------------------")
-
-                    Log.d("RESPONSEO-SEND MSG", item.address!!.geo!!.lat)
-                    Log.d("RESPONSEO-SEND MSG", item.address!!.geo!!.lng)
-
-
-
-
-
-                    Log.d("RESPONSEO-SEND MSG", "***********************")
-
-
-                }            }
-        })
-
-
-        */
 
 
     }
